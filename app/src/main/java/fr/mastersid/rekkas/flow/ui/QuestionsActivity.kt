@@ -1,11 +1,12 @@
-package fr.mastersid.rekkas.flow
+package fr.mastersid.rekkas.flow.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import fr.mastersid.rekkas.flow.R
 
-class MainActivity : AppCompatActivity() {
+class QuestionsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.questions_main)
     }
 }
