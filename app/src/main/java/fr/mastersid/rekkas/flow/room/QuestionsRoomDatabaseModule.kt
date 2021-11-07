@@ -1,4 +1,4 @@
-package fr.mastersid.rekkas.roomdatabase.room
+package fr.mastersid.rekkas.flow.room
 
 import android.content.Context
 import androidx.room.Room

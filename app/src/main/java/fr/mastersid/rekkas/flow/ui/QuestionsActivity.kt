@@ -2,11 +2,16 @@ package fr.mastersid.rekkas.flow.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import fr.mastersid.rekkas.flow.R
+import dagger.hilt.android.AndroidEntryPoint
+import fr.mastersid.rekkas.flow.databinding.QuestionsMainBinding
 
+@AndroidEntryPoint
 class QuestionsActivity : AppCompatActivity() {
+    private lateinit var _binding: QuestionsMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.questions_main)
+        _binding = QuestionsMainBinding.inflate(layoutInflater)
+        setContentView(_binding.root)
     }
 }

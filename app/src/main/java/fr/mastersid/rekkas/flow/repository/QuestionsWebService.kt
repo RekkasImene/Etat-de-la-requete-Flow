@@ -1,6 +1,6 @@
-package fr.mastersid.rekkas.roomdatabase.repository
+package fr.mastersid.rekkas.flow.repository
 
-import fr.mastersid.rekkas.roomdatabase.adapters.Questions
+import fr.mastersid.rekkas.flow.adapters.Questions
 import retrofit2.http.GET
 import retrofit2.http.Query
 

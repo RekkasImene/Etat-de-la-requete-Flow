@@ -1,4 +1,4 @@
-package fr.mastersid.rekkas.roomdatabase.adapters
+package fr.mastersid.rekkas.flow.adapters
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -7,7 +7,6 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.room.Entity
 import fr.mastersid.rekkas.flow.R
-import fr.mastersid.rekkas.roomdatabase.R
 
 @Entity(tableName = "question_table", primaryKeys = ["title"])
 data class Questions(val title: String, val answerCount: Int) {
@@ -26,7 +25,7 @@ class QuestionsListAdapter: ListAdapter<Questions, QuestionsViewHolder>
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): QuestionsViewHolder {
         val view = LayoutInflater.from(parent.context)
-            .inflate(R.layout.questions_item, parent, false)
+            .inflate(R.layout.questions_item, parent,  false)
         return QuestionsViewHolder(view)
     }
 

@@ -1,7 +1,7 @@
-package fr.mastersid.rekkas.roomdatabase.adapters
+package fr.mastersid.rekkas.flow.adapters
 
 import com.squareup.moshi.FromJson
-import fr.mastersid.rekkas.roomdatabase.models.ClassJsonToKotlin
+import fr.mastersid.rekkas.flow.models.ClassJsonToKotlin
 
 class QuestionsMoshiAdapter {
     @FromJson

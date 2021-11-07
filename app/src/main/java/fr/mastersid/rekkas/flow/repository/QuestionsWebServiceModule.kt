@@ -1,4 +1,4 @@
-package fr.mastersid.rekkas.roomdatabase.repository
+package fr.mastersid.rekkas.flow.repository
 
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
@@ -6,7 +6,7 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import fr.mastersid.rekkas.roomdatabase.adapters.QuestionsMoshiAdapter
+import fr.mastersid.rekkas.flow.adapters.QuestionsMoshiAdapter
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 import javax.inject.Singleton
